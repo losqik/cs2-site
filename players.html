@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 | Киберспортсмены</title>
+    <style>
+        body { background-color: #121212; color: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; }
+        nav { background: #1f1f1f; padding: 15px; text-align: center; border-bottom: 2px solid #f59e0b; }
+        nav a { color: #fff; text-decoration: none; margin: 0 20px; font-weight: bold; text-transform: uppercase; transition: 0.2s; }
+        nav a:hover, nav a.active { color: #f59e0b; }
+        header { text-align: center; padding: 60px 20px; background: linear-gradient(180deg, #1f1f1f 0%, #121212 100%); }
+        h1 { font-size: 2.6em; margin-bottom: 10px; color: #f59e0b; text-transform: uppercase; letter-spacing: 2px; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: #1e1e1e; border-radius: 10px; padding: 20px; border-left: 4px solid #f59e0b; }
+        .card h3 { color: #f59e0b; margin: 0 0 4px 0; font-size: 1.4em; }
+        .real-name { color: #999; font-size: 0.9em; margin-bottom: 12px; display: block; }
+        .badge { display: inline-block; background: #2b2b2b; color: #f59e0b; font-size: 0.8em; padding: 3px 8px; border-radius: 4px; margin-bottom: 10px; margin-right: 5px; }
+        footer { text-align: center; padding: 30px; color: #777; font-size: 0.9em; border-top: 1px solid #333; margin-top: 50px; }
+        footer a { color: #f59e0b; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="maps.html">Карты</a>
+    <a href="players.html" class="active">Киберспортсмены</a>
+</nav>
+
+<header>
+    <h1>ЛЕГЕНДЫ И ЗВЁЗДЫ CS2</h1>
+    <p>Самые известные профессиональные игроки мировой сцены</p>
+</header>
+
+<main class="container">
+    <div class="grid">
+        <div class="card">
+            <span class="badge">Рифлер</span>
+            <span class="badge">Team Spirit</span>
+            <h3>donk</h3>
+            <span class="real-name">Данил Крышковец</span>
+            <p>Один из самых ярких и агрессивных стрелков в CS2. Известен феноменальным аимом и рекордным индивидуальным рейтингом на крупных LAN-турнирах.</p>
+        </div>
+
+        <div class="card">
+            <span class="badge">Снайпер (AWP)</span>
+            <span class="badge">Team Vitality</span>
+            <h3>ZywOo</h3>
+            <span class="real-name">Матье Эрбо</span>
+            <p>Французский снайпер и многократный лучший игрок года по версии HLTV. Отличается невероятной стабильностью и универсальностью с любым оружием.</p>
+        </div>
+
+        <div class="card">
+            <span class="badge">Снайпер (AWP)</span>
+            <span class="badge">Team Falcons</span>
+            <h3>m0NESY</h3>
+            <span class="real-name">Илья Осипов</span>
+            <p>Мастер молниеносных фликов и клатчей, один из сильнейших снайперов мира, регулярно входящий в топ лучших игроков планеты.</p>
+        </div>
+
+        <div class="card">
+            <span class="badge">Люркер</span>
+            <span class="badge">Team Vitality</span>
+            <h3>ropz</h3>
+            <span class="real-name">Робин Коль</span>
+            <p>Эстонский киберспортсмен с эталонным пониманием таймингов и позиций, многократный чемпион мейджоров и турниров серии Intel Grand Slam.</p>
+        </div>
+
+        <div class="card">
+            <span class="badge">Рифлер</span>
+            <span class="badge">Team Falcons</span>
+            <h3>NiKo</h3>
+            <span class="real-name">Никола Ковач</span>
+            <p>Легендарный боснийский стрелок, известный безупречной стрельбой из Desert Eagle и AK-47, а также стабильными попаданиями в топ HLTV.</p>
+        </div>
+
+        <div class="card">
+            <span class="badge">Снайпер / Легенда</span>
+            <span class="badge">CS:GO / CS2</span>
+            <h3>s1mple</h3>
+            <span class="real-name">Александр Костылев</span>
+            <p>Трёхкратный лучший игрок мира в эпоху CS:GO и символ целого поколения Counter-Strike, оставивший яркий след и в официальных матчах CS2.</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    Фан-сайт по CS2. Не связан с Valve. • <a href="index.html">На главную</a>
+</footer>
+
+</body>
+</html>
